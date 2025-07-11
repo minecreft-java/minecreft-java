@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATIVE Minecraft</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="https://pm1.aminoapps.com/6722/ee022ea2583b46424da2274d617c747fa7320688_00.jpg" type="image/x-icon">
+</head>
+<body class="imgCREATIVE">
+    <h1 class="texto">aperte t ou T para abrir o chat e esc para fechar de /help se nao sabe todos os comandos</h1>
+    <div id="darkOverlay"></div> 
+    <!--<img src="https://minecraft.wiki/images/thumb/Survival_1.21.5.png/1200px-Survival_1.21.5.png?a497d" alt="Survival Minecraft">-->
+    <div class="container">
+        <div id="chatBackground"></div> 
+        <div id="chatDisplay"></div> 
+        <div id="errorMessage"><p id="erro"></p></div>
+        <div id="contagem">
+            
+        </div> 
+    </div>
+
+    <div class="bloco">
+        <form id="formulario" onsubmit="return false">
+            <input type="text" id="meuInput" placeholder="Digite aqui..." onkeydown="mostrarValor(event)">
+        </form>
+    </div>
+
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
